@@ -1,6 +1,7 @@
-# Finanace-Frontier
+# Finanacial-Frontier
+![Financial Frontier](image_url)
 ## VHACK 2024
-Finance Frontier is an innovative platform designed to revolutionize financial education and empowerment. Our platform offers a comprehensive suite of tools, resources, and gamified experiences to help individuals of all backgrounds gain the knowledge and skills needed to thrive in the complex world of finance and investing.<br>
+Financial Frontier is an innovative platform designed to revolutionize financial education and empowerment. Our platform offers a comprehensive suite of tools, resources, and gamified experiences to help individuals of all backgrounds gain the knowledge and skills needed to thrive in the complex world of finance and investing.<br>
 
 ## Key Features:
 Interactive Learning: Engage in immersive educational experiences through gamified learning modules, interactive simulations, and real-world case studies.<br>
