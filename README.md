@@ -1,15 +1,42 @@
 # Financial-Frontier
 ![Financial Frontier](logo.png)
-## VHACK 2024
-Financial Frontier is an innovative platform designed to revolutionize financial education and empowerment. Our platform offers a comprehensive suite of tools, resources, and gamified experiences to help individuals of all backgrounds gain the knowledge and skills needed to thrive in the complex world of finance and investing.<br>
+Financial Frontier is an innovative platform designed to empower novice and intermediate traders with comprehensive financial education, simulation-based training, goal planning tools, and a vibrant community for discussion and collaboration.
+We also offers a multifaceted approach to financial education and trading, including:
 
-## Key Features:
-Interactive Learning: Engage in immersive educational experiences through gamified learning modules, interactive simulations, and real-world case studies.<br>
-Community Engagement: Connect with a vibrant community of traders, investors, and financial experts to share insights, strategies, and support.<br>
-Personalized Guidance: Receive personalized recommendations, goal-setting tools, and risk management strategies tailored to your unique financial goals and preferences.<br>
-Simulation and Practice: Hone your trading skills and test strategies in simulated trading environments, with opportunities to compete in weekly challenges and earn rewards.<br>
-Portfolio Management: Plan, track, and optimize your investment portfolio with advanced portfolio management tools and risk assessment features.<br>
-Continuous Learning: Stay ahead of the curve with access to the latest market news, analysis, and educational resources updated regularly on the platform.<br>
-Whether you're a novice trader looking to get started or an experienced investor seeking to enhance your skills, Finance Frontier empowers you to take control of your financial future and embark on a journey towards financial freedom.<br>
+## Key Features
 
-Join us on Finance Frontier and unlock the doors to a world of financial knowledge, opportunity, and prosperity!
+### Education: TradeQuest
+- Engaging 2D Quiz Game introducing users to Capital Market & Trading World.
+- Continuously updated Decision-Making Scenarios with AI analysis explanations.
+- Daily Vocabulary for expanding financial literacy.
+- Collaboration Courses with potential partners.
+- Accessible Capital Market related articles.
+
+### Weekly Challenge (Simulation)
+- Real-time Stock Market simulation with 3 levels: beginner, intermediate, advanced.
+- Prize pool determined by the number of entries.
+- Virtual Initial Fund provided to participants.
+- Earn points to upgrade and compete in the Weekly Challenge.
+- Weekly changing stock lists to keep challenges fresh.
+
+### Wealth Compass: Goal Planner
+- Implementation of Machine Learning Algorithms for personalized analysis.
+- Portfolio management and Monthly Goal setting guidance.
+- Suggestions on stock purchases.
+- Risk Analysis for Premium Traders.
+
+### Community
+- Discussion forums for general topics, TradeQuest, and Weekly Challenge strategies.
+- Support authors through likes and comments.
+- Opportunity to earn points through active participation.
+
+### Home Page
+- User-friendly interface with indicators for novice traders.
+- Profile section for user convenience.
+- Display of remaining tasks, earned badges, and Allocation Breakdown Summary.
+- Quick access to Wealth Compass and Risk Analysis.
+
+### News & Info
+- Daily updates on capital market-related news.
+- Suggested information based on trader preferences.
+
