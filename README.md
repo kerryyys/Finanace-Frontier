@@ -1,5 +1,5 @@
-# Finanacial-Frontier
-![Financial Frontier](image_url)
+# Financial-Frontier
+![Financial Frontier](logo.png)
 ## VHACK 2024
 Financial Frontier is an innovative platform designed to revolutionize financial education and empowerment. Our platform offers a comprehensive suite of tools, resources, and gamified experiences to help individuals of all backgrounds gain the knowledge and skills needed to thrive in the complex world of finance and investing.<br>
 
