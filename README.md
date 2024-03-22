@@ -9,14 +9,15 @@ We also offers a multifaceted approach to financial education and trading, inclu
 - Engaging 2D Quiz Game introducing users to Capital Market & Trading World.
 - Continuously updated Decision-Making Scenarios with AI analysis explanations.
 - Daily Vocabulary for expanding financial literacy.
-- Collaboration Courses with potential partners.
+- Collaborative Courses with potential partners.
 - Accessible Capital Market related articles.
+- Trader's own Saved List
 
 ### Weekly Challenge (Simulation)
 - Real-time Stock Market simulation with 3 levels: beginner, intermediate, advanced.
-- Prize pool determined by the number of entries.
+- Dynamic Prize Pool: determined by number of entries
 - Virtual Initial Fund provided to participants.
-- Earn points to upgrade and compete in the Weekly Challenge.
+- Progressive System: earn points to up level.
 - Weekly changing stock lists to keep challenges fresh.
 
 ### Wealth Compass: Goal Planner
@@ -40,3 +41,4 @@ We also offers a multifaceted approach to financial education and trading, inclu
 - Daily updates on capital market-related news.
 - Suggested information based on trader preferences.
 
+Thanks for visiting our website!
