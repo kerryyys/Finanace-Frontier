@@ -42,3 +42,5 @@ We also offers a multifaceted approach to financial education and trading, inclu
 - Suggested information based on trader preferences.
 
 Thanks for visiting our website!
+
+Our presentation silde: https://www.canva.com/design/DAF-8KLUNuw/7keXZ5YNcIbhhsf8hCHlEw/edit?utm_content=DAF-8KLUNuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
