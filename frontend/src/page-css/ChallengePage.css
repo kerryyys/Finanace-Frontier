@@ -1,14 +1,25 @@
+.body {
+  padding-bottom: 4%;
+}
+
 #disclaimer {
   background-color: rgba(219, 27, 36, 0.4);
   backdrop-filter: blur(10px);
   color: white;
-  padding-left: 98px;
-  padding-right: 98px;
+  padding: 30px;
+  align-self: center;
+}
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  padding-bottom: 4%;
 }
 .container p {
   margin-bottom: 0;
 }
 
 .level-container {
-  margin: 50px;
+  margin: 20px;
 }

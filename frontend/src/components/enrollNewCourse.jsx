@@ -1,8 +1,37 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "../component-css/enrollNewCourse.css"
+import { Link } from "react-router-dom";
 
 function EnrollNewCourse() {
+    const newCourseList = [
+        {
+          id: 1,
+          img: "../../Resources/Business.png",
+          title: "Introduction to Capital Market",
+          desc: "California Institute of Finance",
+          label2: "Professional Certificate",
+          view: "12123",
+        },
+        {
+          id: 2,
+          img: "../../Resources/Clothing.png",
+          title: "All about Risk Management",
+          desc: "Norway Institute of Finance",
+          label1: "Beginner",
+          view: "45363",
+        },
+        {
+          id: 3,
+          img: "../../Resources/Clothing1.png",
+          title: "What are bonds and stocks?",
+          desc: "Norway Institute of Finance",
+          label1: "Beginner",
+          label2: "Professional Certificate",
+          view: "121",
+        },
+      ];
+    
     return (
         <Card id="enrollNewCourse">
             <div className="header-wrapper">
@@ -10,52 +39,22 @@ function EnrollNewCourse() {
                 <img src="Resources/searchGroup.png" alt="Search Group" className="search-group-img" />
             </div>
             <div id="courseContainer">
-                <div>
-                    <Card.Img src="Resources/Business.png" className="card-img"/>
-                </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>Introduction to Capital Market</Card.Title>
-                        </Button>
-                        <Card.Text>California Institute of Finance</Card.Text>
-                        <p1>Professional Certificate</p1>
-                        <p3>12123 Views</p3>
-                    </Card.ImgOverlay>
-                </div>
-            </div>
-            <div id="courseContainer">
-                <div>
-                    <Card.Img src="Resources/Clothing.png" className="card-img"/>
-                </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>All about Risk Management</Card.Title>
-                        </Button>
-                        <Card.Text>Norway Institute of Finance</Card.Text>
-                        <p2>Beginner</p2>
-                        <p3>42543 Views</p3>
-                    </Card.ImgOverlay>
-                </div>
-            </div>
-            <div id="courseContainer">
-                <div>
-                    <Card.Img src="Resources/Clothing1.png" className="card-img"/>
-                </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>What are bonds and stocks?</Card.Title>
-                        </Button>
-                        <Card.Text>Norway Institute of Finance</Card.Text>
-                        <div id="difficultyContainer">
-                            <p2>Beginner</p2>
-                            <p1>Professional Certificate</p1>
-                        </div>
-                        <p3>543 Views</p3>
-                    </Card.ImgOverlay>
-                </div>
+                {newCourseList.map((item) => {
+                return (
+                <Link to="#" className="carousel-link">
+                    <div className="course-item" key={item.id}>
+                    <img src={item.img} alt="" className="course-img" />
+                    <div className="course-text">
+                        <h6 className="course-title">{item.title}</h6>
+                        <div className="desc-text">{item.desc}</div>
+                        <div className="course-label1">{item.label1}</div>
+                        <div className="course-label2">{item.label2}</div>
+                        <div className="course-view">{item.view}</div>
+                    </div>
+                    </div>
+                </Link>
+                  );
+                })}
             </div>
         </Card>
     );

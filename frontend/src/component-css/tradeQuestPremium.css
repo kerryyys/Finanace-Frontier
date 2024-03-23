@@ -1,10 +1,10 @@
 #tradeQuestPremium {
-  position: relative; /* Ensure positioning context for absolute positioning */
-  max-width: 489px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the card horizontally */
-  border: none; /* Remove border */
-  border-radius: 10px; /* Add some border radius for rounded corners */
-  overflow: hidden; /* Hide overflow content */
+  position: relative; 
+  max-width: 489px; 
+  margin: 0 auto; 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden; 
   box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -13,7 +13,7 @@
 }
 
 #tradeQuestPremium .card-img-overlay {
-  position: absolute; /* Position the overlay absolutely */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -23,22 +23,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1; /* Ensure the overlay appears above the background image */
-  border-radius: 10px; /* Ensure the overlay follows the border radius */
+  z-index: 1;
+  border-radius: 10px; 
 }
 
 #tradeQuestPremium .card-title {
   line-height: 0.6;
-  position: relative; /* Ensure the text is positioned relative to the overlay */
-  z-index: 2; /* Ensure the text appears above the overlay */
+  position: relative; 
+  z-index: 2; 
   color: white;
   font-size: x-large;
 }
 
 #tradeQuestPremium .card-text {
   line-height: 1.6;
-  position: relative; /* Ensure the text is positioned relative to the overlay */
-  z-index: 2; /* Ensure the text appears above the overlay */
+  position: relative; 
+  z-index: 2; 
   color: white;
   font-size: smaller;
 }
@@ -46,7 +46,7 @@
 #tradeQuestPremium .btn {
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
-  padding: 1px 30px; /* Set padding for the button */
+  padding: 1px 30px; 
   border-radius: 10px;
   border-color: white;
   background-color: transparent;
@@ -57,8 +57,8 @@
   top: 15px;
   right: 15px;
   width: 80px;
-  height: 10px;
-  font-size: x-small;
+  height: 15px;
+  font-size: 8px;
   color: white;
   display: flex;
   align-items: center;
@@ -66,5 +66,10 @@
   background-color: #FFA800;
   border-radius: 20px;
   padding: 5px 10px;
-  z-index: 2; /* Ensure it appears above other elements */
+  z-index: 2; 
+}
+
+.premiumContainer p {
+  position: absolute;
+  top: 1px;
 }

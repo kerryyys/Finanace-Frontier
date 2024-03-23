@@ -3,10 +3,9 @@ import '../component-css/pageHeader.css';
 
 function PageHeader() {
   return (
-    <div id="pageHeader">
-      <h1>
-        Education<Badge bg="secondary">Learn from Our Game & Tutorial</Badge>
-      </h1>
+    <div className="page-title">
+      <h1>Education</h1>
+      <h5>Learn from Our Game & Tutorial</h5>
     </div>
   );
 }

@@ -4,7 +4,9 @@ import viteLogo from "/vite.svg";
 // Right now this page is using App.css
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from "./components/navbar";
 import HomePage from "./pages/HomePage";
 import EducationPage from "./pages/EducationPage";
 import ChallengePage from "./pages/ChallengePage";
@@ -12,13 +14,14 @@ import CommunityPage from "./pages/CommunityPage";
 import NewsPage from "./pages/NewsPage";
 import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
+import TopicPage from "./pages/TopicPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
+import TradeQuestEndless from "./pages/TradeQuestEndless";
 
 function App() {
   return (
-    // If want add component just use <component function name></component function name>
     <Router>
-      {/* Replace this nav with the NavBar component */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/education" element={<EducationPage />} />
@@ -28,6 +31,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/community/topic1" element={<TopicPage />} />
+        <Route path="/education/tradequestendless" element={<TradeQuestEndless />} />
       </Routes>
     </Router>
   );

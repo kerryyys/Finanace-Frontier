@@ -28,7 +28,7 @@ function NewsCarousel() {
       <Carousel id="news-carousel">
         {topNewsList.map((item) => {
           return (
-            <Carousel.Item key={item.id} interval={1000}>
+            <Carousel.Item key={item.id} interval={5000}>
               <Link to="/news" className="carousel-link">
                 <img className="carousel-img" src={item.img} />
                 <Carousel.Caption>

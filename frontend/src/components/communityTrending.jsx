@@ -1,105 +1,93 @@
 import "../component-css/communityTrending.css";
-import React, {useState} from 'react';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import React, { useState } from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-function CommunityTrending(){
-    const [likes1, setLikes1] = useState(10);
-    const [liked1, setLiked1] = useState(false);
+function CommunityTrending() {
+  const [trendingTopicList, setTrendingTopicList] = useState([
+    {
+      id: 1,
+      img: "../../Resources/Profile1.png",
+      title: "Introduction to Capital Market",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam unde reiciendis accusamus natus id placeat autem maxime amet quisquam expedita est velit blanditiis doloribus itaque nihil dolorem impedit culpa quas voluptatibus, modi quo, facere minima sed. Nostrum at tempora eveniet distinctio quibusdam numquam voluptates asperiores. At nobis eaque corporis.",
+      reply: 10,
+      like: 10,
+      liked: false,
+    },
+    {
+      id: 2,
+      img: "../../Resources/Profile2.png",
+      title: "Differentiation in Digital Marketing",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam unde reiciendis accusamus natus id placeat autem maxime amet quisquam expedita est velit blanditiis doloribus itaque nihil dolorem impedit culpa quas voluptatibus, modi quo, facere minima sed. Nostrum at tempora eveniet distinctio quibusdam numquam voluptates asperiores. At nobis eaque corporis.",
+      reply: 10,
+      like: 10,
+      liked: false,
+    },
+    {
+      id: 3,
+      img: "../../Resources/Profile3.png",
+      title: "Financial Tips for Everyone",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam unde reiciendis accusamus natus id placeat autem maxime amet quisquam expedita est velit blanditiis doloribus itaque nihil dolorem impedit culpa quas voluptatibus, modi quo, facere minima sed. Nostrum at tempora eveniet distinctio quibusdam numquam voluptates asperiores. At nobis eaque corporis.",
+      reply: 10,
+      like: 10,
+      liked: false,
+    },
+  ]);
 
-    const [likes2, setLikes2] = useState(10);
-    const [liked2, setLiked2] = useState(false);
-
-    const [likes3, setLikes3] = useState(10);
-    const [liked3, setLiked3] = useState(false);
-
-    const incrementLikes1 = () => {
-        setLikes1(likes1 + 1);
-        setLiked1(true);
-        setTimeout(() => setLiked1(false), 1000);
-    };
-
-    const incrementLikes2 = () => {
-        setLikes2(likes2 + 1);
-        setLiked2(true);
-        setTimeout(() => setLiked2(false), 1000);
-    };
-
-    const incrementLikes3 = () => {
-        setLikes3(likes3 + 1);
-        setLiked3(true);
-        setTimeout(() => setLiked3(false), 1000);
-    };
-
-
-    return(
-        <Card id="communityTrending">
-            <h2>Trending</h2>
-            <div id="trendingContainer">
-                <div>
-                <Card.Img src="Resources/Profile1.png" className="card-img"/>
+  const handleLikeClick = (id) => {
+    setTrendingTopicList((prevList) =>
+      prevList.map((item) =>
+        item.id === id
+          ? {
+              ...item,
+              like: item.liked ? item.like - 1 : item.like + 1,
+              liked: !item.liked,
+            }
+          : item
+      )
+    );
+  };
+  return (
+    <>
+      <div className="community-trending-container">
+        <h3>Trending</h3>
+        <div className="trending-topic-list">
+          {trendingTopicList.map((item) => {
+            return (
+              <Link to="/community/topic1" key={item.id}>
+                <div className="trending-item">
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="community-profile-pic"
+                  />
+                  <div className="trending-item-texts">
+                    <div className="topic-title-stats">
+                      <p className="topic-title">{item.title}</p>
+                      <div className="topic-stats">
+                        {item.reply} replies • {item.like}{" "}
+                        <i
+                          className={`bi bi-chevron-double-up like-btn ${
+                            item.liked ? "liked" : ""
+                          }`}
+                          onClick={() => handleLikeClick(item.id)}
+                        ></i>
+                      </div>
+                    </div>
+                    <p className="topic-content">{item.desc}</p>
+                  </div>
                 </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>Introduction to Capital Market</Card.Title>
-                        </Button>
-                        <Card.Text>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</Card.Text>
-                        <p1>
-                            <Button>10 replies</Button>
-                             • 
-                            <Button onClick={incrementLikes1} style={{ backgroundColor: liked1 ? 'green' : 'transparent' }}>
-                                {likes1}∧
-                            </Button>
-                        </p1>
-                    </Card.ImgOverlay>
-                </div>
-            </div>
-            <div id="trendingContainer">
-                <div>
-                <Card.Img src="Resources/Profile2.png" className="card-img"/>
-                </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>Differentiation in Digital Marketing</Card.Title>
-                        </Button>
-                        <Card.Text>Differentiation and integration is useful in marketing !!....</Card.Text>
-                        <p1>
-                            <Button>10 replies</Button>
-                             • 
-                            <Button onClick={incrementLikes2} style={{ backgroundColor: liked2 ? 'green' : 'transparent' }}>
-                                {likes2}∧
-                            </Button>
-                        </p1>
-                    </Card.ImgOverlay>
-                </div>
-            </div>
-            <div id="trendingContainer">
-                <div>
-                <Card.Img src="Resources/Profile3.png" className="card-img"/>
-                </div>
-                <div>
-                    <Card.ImgOverlay>
-                        <Button>
-                            <Card.Title>Financial Tips for Everyone</Card.Title>
-                        </Button>
-                        <Card.Text>Financial tips number 1, do not.....</Card.Text>
-                        <p1>
-                            <Button>10 replies</Button>
-                             • 
-                            <Button onClick={incrementLikes3} style={{ backgroundColor: liked3 ? 'green' : 'transparent' }}>
-                                {likes3}∧
-                            </Button>
-                        </p1>
-                    </Card.ImgOverlay>
-                </div>
-            </div>
-            <div className="viewMore">
-                <Card.Link href="#">View More {'>'}</Card.Link>
-            </div>
-        </Card>
-    )
+              </Link>
+            );
+          })}
+        </div>
+        <Button variant="view-more">
+          VIEW MORE <i className="bi bi-chevron-right"></i>
+        </Button>
+      </div>
+    </>
+  );
 }
 
 export default CommunityTrending;

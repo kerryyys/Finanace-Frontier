@@ -29,8 +29,8 @@ function SuggestedNews() {
         <div className="suggested-news-item-list">
           {suggestedNewsList.map((item) => {
             return (
-              <Link to="/news" className="carousel-link">
-                <div className="suggested-news-item" key={item.id}>
+              <Link to="/news" className="carousel-link" key={item.id}>
+                <div className="suggested-news-item">
                   <img src={item.img} alt="" className="suggested-news-img" />
                   <div className="suggested-news-text">
                     <h6 className="news-title">{item.title}</h6>

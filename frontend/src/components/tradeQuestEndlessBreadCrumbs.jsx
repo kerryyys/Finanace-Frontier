@@ -1,11 +1,13 @@
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import '../component-css/tradeQuestEndlessBreadCrumbs.css';
+import { Link } from 'react-router-dom';
+
 function TradeQuestEndlessBreadCrumbs() {
   return (
     <Breadcrumb>
-      <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+      <Link to="/"><Breadcrumb.Item href="/">Home</Breadcrumb.Item></Link>
       <span className="separator">/</span>
-      <Breadcrumb.Item href="#">Education</Breadcrumb.Item>
+      <Link to="/education"><Breadcrumb.Item href="/education">Education</Breadcrumb.Item></Link>
       <span className="separator">/</span>
       <Breadcrumb.Item active>TradeQuest: Endless</Breadcrumb.Item>
     </Breadcrumb>

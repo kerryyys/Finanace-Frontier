@@ -1,56 +1,36 @@
 #dailyVocabContainer {
-  max-width: 800px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #81A5B0;
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  overflow: hidden;
 }
   
 #dailyVocabContainer .carousel {
   border-radius: 10px;
   overflow: hidden;
 }
-  
-#dailyVocabContainer .carousel-item {
+
+#dailyVocabContainer .carousel-img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  object-fit: cover;
   position: relative;
 }
 
-#dailyVocabContainer .carousel-item::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(129, 165, 176, 0.5); /* Semi-transparent blue overlay */
-  z-index: 1; /* Ensure the overlay is above the image */
-}
-  
-#dailyVocabContainer .carousel-caption {
-  /* background: rgba(0, 0, 0, 0.5); */
-  position: absolute;
-  top: 20px;
-  color: white;
-  border-radius: 5px;
-  padding: 10px;
-  z-index: 2;
-}
-  
-#dailyVocabContainer .carousel-caption p {
-  font-size:20px;
-  margin: 15px 0;
+#dailyVocabContainer p{
+  margin-bottom: 80px;
 }
 
-#dailyVocabContainer .carousel-caption h5 {
-  font-size: 20px;
-  margin: 15px 0;
-  text-align: left; 
-  top:auto;
-  margin-bottom: 65px;
+#dailyVocabContainer h5{
+  margin-bottom: 80px;
+  text-align: left;
 }
 
-#dailyVocabContainer .breadcrumb{
-  position: absolute;
-  z-index: 1;
-  top: 43px;
-  right: 130px;
+#dailyVocabContainer h2{
+  margin-bottom: 50px;
+}
+
+#dailyVocabContainer h6{
+  text-align: right;
 }

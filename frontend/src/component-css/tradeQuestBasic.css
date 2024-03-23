@@ -1,11 +1,12 @@
 #tradeQuestBasic {
-  position: relative; /* Ensure positioning context for absolute positioning */
-  max-width: 581px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the card horizontally */
-  border: none; /* Remove border */
-  border-radius: 10px; /* Add some border radius for rounded corners */
-  overflow: hidden; /* Hide overflow content */
+  position: relative; 
+  max-width: 581px;
+  margin: 0 auto; 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden; 
   box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
 }
 
 #tradeQuestBasic .card-img {
@@ -13,7 +14,7 @@
 }
 
 #tradeQuestBasic .card-img-overlay {
-  position: absolute; /* Position the overlay absolutely */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -23,22 +24,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1; /* Ensure the overlay appears above the background image */
-  border-radius: 10px; /* Ensure the overlay follows the border radius */
+  z-index: 1; 
+  border-radius: 10px; 
 }
 
 #tradeQuestBasic .card-title{
   line-height: 0.6;
-  position: relative; /* Ensure the text is positioned relative to the overlay */
-  z-index: 2; /* Ensure the text appears above the overlay */
+  position: relative; 
+  z-index: 2; 
   color: white;
   font-size: x-large;
 }
 
 #tradeQuestBasic .card-text {
   line-height: 0.8;
-  position: relative; /* Ensure the text is positioned relative to the overlay */
-  z-index: 2; /* Ensure the text appears above the overlay */
+  position: relative; 
+  z-index: 2; 
   color: white;
   font-size: smaller;
 }
@@ -46,48 +47,33 @@
 #tradeQuestBasic .progress {
   background-color: aliceblue;
   border-radius: 10px;
-  width: 50%; /* Adjust the width of the progress bar */
-  margin: 10px auto; /* Center the progress bar horizontally */
+  width: 50%; 
+  margin: 10px auto; 
   margin-bottom: 15px;
 }
 
 #tradeQuestBasic .progress-bar {
-  background-color: #ffc107; /* Set progress bar background color */
-  border-radius: 10px; /* Rounded corners */
-}
-
-#tradeQuestBasic .progress-bar-striped {
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%, /* Adjust the opacity of the stripes */
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%, /* Adjust the opacity of the stripes */
-    rgba(255, 255, 255, 0.4) 75%, /* Adjust the opacity of the stripes */
-    transparent 75%,
-    transparent
-  );
-  animation: progress-stripes 3s linear infinite forwards; /* Animation for the stripes */
+  background-color: #ffc107; 
+  border-radius: 10px; 
 }
 
 @keyframes progress-stripes {
   100% {
-    background-position: 30rem 0; /* Adjust the width of the stripes */
+    background-position: 30rem 0;
   }
 }
 
 #tradeQuestBasic .btn {
-  background-color: #28a745; /* Set button background color to green */
-  color: #ffffff; /* Set button font color to white */
-  border: none; /* Remove button border */
-  padding: 9px 16px; /* Set padding for the button */
-  font-size: 15px; /* Set font size for the button */
+  background-color: #28a745; 
+  color: #ffffff; 
+  border: none; 
+  padding: 9px 16px; 
+  font-size: 15px; 
   border-radius: 10px;
-  border-color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 #tradeQuestBasic .btn:hover {
-  background-color: #218838; /* Darken button background color on hover */
+  background-color: #218838; 
 }

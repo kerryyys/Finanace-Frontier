@@ -25,7 +25,7 @@ export default function ChallengePage() {
   return (
     <>
       <div className="page-title">
-        <h1>Weekly Challenge</h1>
+        <h3>Weekly Challenge</h3>
         <h5>virtual trading with real time stock-data</h5>
       </div>
       <Container className="container challenge-container">

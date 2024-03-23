@@ -6,13 +6,15 @@
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
   font-size: 16px;
+  padding-bottom: 4%;
 }
 
 /* General styling for page-title */
 .page-title {
-  padding-left: 236px;
+  padding-left: 8%;
   color: white;
-  margin-bottom: 45px;
+  margin-bottom: 3%;
+  margin-top: 2%;
 }
 
 .page-title h1,
