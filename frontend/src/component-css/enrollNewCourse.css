@@ -1,0 +1,101 @@
+#enrollNewCourse {
+  background-color: rgba(196, 196, 196, 0.3);
+  max-width: 700px; 
+  margin: 0 auto; 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+}
+ 
+#enrollNewCourse h3 {
+  color: white;
+  top:auto;
+  text-align: left;
+  text-indent: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#courseContainer .card-img{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
+#courseContainer .card-img-overlay {
+  text-align: left;
+}
+
+#courseContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#courseContainer .btn {
+  background-color: transparent;
+  border: none;
+}
+
+#courseContainer .card-title {
+  margin-top: 3px;
+  color: white;
+  font-size: larger;
+}
+
+#courseContainer .card-text {
+  color: white;
+  flex: 1;
+  text-indent: 6px;
+  font-size: x-small;
+}
+
+#courseContainer .card-img-overlay p1 {
+  margin-left: 190px;
+  background-color: #FE666D;
+  border-radius: 20px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex: 1;
+  text-indent: 0px;
+  font-size: x-small;
+  width: 105px;
+}
+
+#courseContainer .card-img-overlay p2 {
+  margin-left: 190px;
+  background-color: #01DF96;
+  border-radius: 20px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex: 1;
+  text-indent: 0px;
+  font-size: x-small;
+  width: 40px;
+}
+
+#courseContainer .card-img-overlay p3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-size: x-small;
+  margin-right: 40px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-group-img {
+  width: 100px; 
+  margin-left: 270px;
+}

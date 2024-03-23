@@ -1,0 +1,51 @@
+.goal-planner-container {
+  background: #81a5b0;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 50px 90px;
+}
+.goal-planner-container h3 {
+  margin-bottom: 30px;
+}
+.goal-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px 50px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+.goal-target {
+  color: red;
+}
+.goal-item-left {
+  flex: 3;
+}
+.goal-item-right {
+  flex: 2;
+  display: flex;
+  justify-content: end;
+}
+.goal-item-btn {
+  opacity: 1 !important;
+}
+.goal-target {
+  margin-top: 10px;
+}
+
+.goal-planner-container .btn {
+  background: none;
+  border: 1px solid #fff;
+}
+.goal-planner-container .btn:hover {
+  background: white;
+  border: 1px solid #fff;
+  color: #81a5b0;
+}
+.goal-planner-container .btn:active {
+  background: rgb(216, 216, 216);
+}

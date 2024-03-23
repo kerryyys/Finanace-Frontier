@@ -1,0 +1,11 @@
+#pageHeader h1 {
+  text-indent: 175px;
+  color: white;
+  font-size: 40px;
+}
+
+#pageHeader h1 .badge {
+  color: grey;
+  font-size: small;
+  margin-left: 25px;
+}

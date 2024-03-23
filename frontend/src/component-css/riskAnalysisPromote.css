@@ -1,0 +1,43 @@
+.risk-analysis-promote-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(
+    174deg,
+    rgba(255, 211, 127, 0.9) -1.25%,
+    rgba(153, 127, 76, 0.9) 112.46%
+  );
+  padding: 50px;
+  border-radius: 12px;
+}
+.risk-analysis-promote-container h3 {
+  margin-bottom: 30px;
+}
+.risk-analysis-promote-container .coming-soon-btn {
+  color: #835353;
+  border: 2px solid #835353;
+  background: none;
+  opacity: 1;
+  border-radius: 48px;
+  margin-top: 30px;
+}
+.risk-analysis-promote-container .badge-premium {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+#graph-up-img,
+#graph-down-img {
+  position: absolute;
+  width: 130px;
+  height: auto;
+}
+#graph-up-img {
+  right: 20px;
+}
+#graph-down-img {
+  left: 20px;
+  bottom: 20px;
+}

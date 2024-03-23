@@ -1,0 +1,14 @@
+#disclaimer {
+  background-color: rgba(219, 27, 36, 0.4);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+.container p {
+  margin-bottom: 0;
+}
+
+.level-container {
+  margin: 50px;
+}

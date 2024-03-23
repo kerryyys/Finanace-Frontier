@@ -1,0 +1,58 @@
+.stock-container h3 {
+  font-weight: bold;
+  color: #363d54;
+  margin-bottom: 50px;
+}
+
+.stock-container {
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.stock-item {
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.stock-item .col-sm-3 {
+  display: flex;
+  justify-content: center;
+}
+.btn-stock {
+  border: none;
+  padding: 4px 12px 4px 12px;
+  border-radius: 48px;
+  background: #01df96;
+}
+.btn-stock:hover {
+  border: 1px solid #01df96;
+  background: white;
+  color: #01df96;
+}
+.btn-stock:active {
+  background-color: white !important;
+  color: #017e54 !important;
+}
+.stock-container .btn-view-more {
+  color: black;
+}
+.stock-container .btn-view-more:active {
+  background: #323232 !important;
+  color: white !important;
+}
+.stock-container .btn-view-more:hover {
+  cursor: pointer;
+  background: #8b8b8b;
+  color: white;
+}
+.btn-view-more {
+  margin-top: 30px;
+  background: none;
+  border: none;
+}

@@ -1,0 +1,123 @@
+.ranking-container {
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  height: 100%;
+}
+.ranking-container h3 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+.ranking-container h5 {
+  margin-bottom: 5px;
+}
+.ranking-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ranking-item {
+  align-items: center;
+}
+.ranking-item .col-sm-3 {
+  display: flex;
+  justify-content: end;
+}
+
+.ranking-prize {
+  color: white;
+  font-weight: 700;
+}
+.ranking-card {
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+}
+.ranking-card img {
+  width: 100%;
+  height: auto;
+}
+.ranking-card .row {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.ranking-card .col-sm-3 {
+  display: flex;
+  justify-content: center;
+}
+.ranking-score {
+  border-radius: 48px;
+  background: #fff;
+  display: inline-block;
+  padding: 0px 30px 0px 30px;
+}
+
+.ranking-placing {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ranking-placing p {
+  font-weight: 700;
+}
+.ranking-container .btn-view-more:active {
+  background: rgb(226, 226, 226) !important;
+  color: #323232 !important;
+}
+.ranking-container .btn-view-more:hover {
+  cursor: pointer;
+  background: white;
+  color: #323232;
+}
+.ranking-container .btn-view-more {
+  color: white;
+}
+/* Each ranking unique styling */
+.ranking-first .ranking-card {
+  background: linear-gradient(74deg, #ffd37f 7.37%, #ffbd3d 98.75%);
+}
+.ranking-first .ranking-score {
+  color: #ffa800;
+}
+.ranking-second .ranking-card {
+  background: linear-gradient(74deg, #c4c4c4 7.37%, #c4c4c4 98.75%);
+}
+.ranking-second .ranking-score {
+  color: #c4c4c4;
+}
+.ranking-third .ranking-card {
+  background: #e4b081;
+}
+.ranking-third .ranking-score {
+  color: #e4b081;
+}
+.ranking-fourth .ranking-card {
+  background: #757a89;
+  border: 1px solid #fff;
+}
+.ranking-fourth .ranking-score {
+  color: #757a89;
+}
+.ranking-fourth .ranking-placing {
+  color: #757a89;
+}
+.ranking-own .ranking-card {
+  background: #81a5b0;
+  border: 1px solid #fff;
+}
+.ranking-own .ranking-score {
+  color: #81a5b0;
+}
+.ranking-own .ranking-placing {
+  color: #81a5b0;
+}

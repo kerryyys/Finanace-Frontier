@@ -1,0 +1,70 @@
+#tradeQuestPremium {
+  position: relative; /* Ensure positioning context for absolute positioning */
+  max-width: 489px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the card horizontally */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Add some border radius for rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tradeQuestPremium .card-img {
+  border-radius: 10px;
+}
+
+#tradeQuestPremium .card-img-overlay {
+  position: absolute; /* Position the overlay absolutely */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1; /* Ensure the overlay appears above the background image */
+  border-radius: 10px; /* Ensure the overlay follows the border radius */
+}
+
+#tradeQuestPremium .card-title {
+  line-height: 0.6;
+  position: relative; /* Ensure the text is positioned relative to the overlay */
+  z-index: 2; /* Ensure the text appears above the overlay */
+  color: white;
+  font-size: x-large;
+}
+
+#tradeQuestPremium .card-text {
+  line-height: 1.6;
+  position: relative; /* Ensure the text is positioned relative to the overlay */
+  z-index: 2; /* Ensure the text appears above the overlay */
+  color: white;
+  font-size: smaller;
+}
+
+#tradeQuestPremium .btn {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  padding: 1px 30px; /* Set padding for the button */
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+}
+
+.premiumContainer {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 80px;
+  height: 10px;
+  font-size: x-small;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFA800;
+  border-radius: 20px;
+  padding: 5px 10px;
+  z-index: 2; /* Ensure it appears above other elements */
+}

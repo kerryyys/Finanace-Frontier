@@ -1,0 +1,29 @@
+.portfolio-container {
+  background-color: white;
+  color: #363d54;
+  padding: 50px;
+}
+.portfolio-container .portfolio-graph {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.current-value-container {
+  display: flex;
+  align-items: center;
+}
+.current-value-container p {
+  color: #e89b05;
+}
+.portfolio-container .current-value {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.portfolio-info-container {
+}
+.portfolio-info-container p {
+  color: rgba(0, 0, 0, 0.4);
+}
+.portfolio-info-container .col-sm-4 {
+  margin-bottom: 20px;
+}

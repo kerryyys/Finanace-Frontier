@@ -1,0 +1,23 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Change the background color to grey */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-icon {
+    width: 20px; /* Adjust the size of the search icon */
+    height: 20px;
+    margin-right: 5px; /* Add some space between the icon and input */
+}
+
+.search-input {
+    background-color: transparent; /* Make the input background transparent */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}
+
+.search-input::placeholder {
+    color: #666; /* Change the placeholder color */
+}

@@ -1,0 +1,25 @@
+.breadcrumb {
+  margin-left: 160px;
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  list-style: none;
+  display: flex;
+  align-items: center; 
+}
+
+.breadcrumb-item {
+  color: yellow !important;
+  font-weight: bold; 
+  font-size: 16px; 
+  margin-right: 5px;
+}
+
+.breadcrumb-item.active {
+  color: #6C757D !important; /* Set active item text color to dark grey */
+}
+
+.separator {
+  color: #CED4DA; 
+  font-weight: normal; 
+  margin-right: 5px;
+}

@@ -1,0 +1,103 @@
+/* progress-container stylings */
+.progress-container {
+  border: 2px solid #c4c4c4;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+/* Progress-left stylings */
+.progress-left {
+  border-right: 4px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: white;
+}
+.progress-left h3 {
+  margin-bottom: 50px;
+}
+#profile-pic {
+  width: 200px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.profile-desc {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.awards-container {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px 10px 20px;
+}
+.awards-container .award-img {
+  width: 80%;
+  height: auto;
+}
+.awards-container .btn-award {
+  padding: 0;
+  width: 50px;
+  border: none !important;
+}
+/* end of progress-left */
+/* ------------------------------------ */
+/* progress-right stylings */
+.progress-right {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 50px;
+}
+.progress-right .bi {
+  margin-right: 30px;
+}
+.current-status {
+  color: white;
+  margin-bottom: 30px;
+}
+.current-status .col-sm-3 p {
+  line-height: 1;
+}
+.current-status .row {
+  display: flex;
+  align-items: end;
+}
+.progress-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.progress-item #goal-btn {
+  border: none;
+  padding: 4px 12px 4px 12px;
+  border-radius: 48px;
+  background: #01df96;
+}
+#goal-btn:hover {
+  border: 1px solid #01df96;
+  background: white;
+  color: #01df96;
+}
+#goal-btn:active {
+  background-color: white !important;
+  color: #017e54 !important;
+}
+#pending-btn {
+  background: white;
+  color: #c4c4c4;
+  padding: 4px 12px 4px 12px;
+  border-radius: 48px;
+  border: 1px solid #d9d9d9;
+}
+.challenge-progress-item {
+  justify-content: start;
+}
+.progress-item .item-text p {
+  color: rgba(82, 79, 83, 0.8);
+}
+/* end of progress-right */
