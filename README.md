@@ -6,7 +6,7 @@ We also offers a multifaceted approach to financial education and trading, inclu
 ## Key Features
 
 ### Education: TradeQuest
-- Engaging 2D Quiz Game introducing users to Capital Market & Trading World.
+- Engaging 2D Quiz Game,TradeQuest introducing users to Capital Market & Trading World.
 - Continuously updated Decision-Making Scenarios with AI analysis explanations.
 - Daily Vocabulary for expanding financial literacy.
 - Collaborative Courses with potential partners.
