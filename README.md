@@ -44,5 +44,5 @@ We also offers a multifaceted approach to financial education and trading, inclu
 
 Thanks for visiting our website!
 
-Our presentation silde: https://www.canva.com/design/DAF-8KLUNuw/7keXZ5YNcIbhhsf8hCHlEw/edit?utm_content=DAF-8KLUNuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Our presentation silde: https://www.canva.com/design/DAF-8KLUNuw/7keXZ5YNcIbhhsf8hCHlEw/edit?utm_content=DAF-8KLUNuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton <br>
 Our Fronend Demonstration Video: https://drive.google.com/file/d/1LiW3qKIPbCwD8dduztUX85WMXBMHlF5H/view?usp=sharing
