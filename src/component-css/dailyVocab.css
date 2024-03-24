@@ -1,0 +1,36 @@
+#dailyVocabContainer {
+  width: 90%;
+  height: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+  
+#dailyVocabContainer .carousel {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#dailyVocabContainer .carousel-img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  object-fit: cover;
+  position: relative;
+}
+
+#dailyVocabContainer p{
+  margin-bottom: 80px;
+}
+
+#dailyVocabContainer h5{
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+#dailyVocabContainer h2{
+  margin-bottom: 50px;
+}
+
+#dailyVocabContainer h6{
+  text-align: right;
+}

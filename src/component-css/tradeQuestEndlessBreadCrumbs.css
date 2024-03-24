@@ -1,0 +1,14 @@
+.breadcrumb {
+  margin-left: 60px;
+}
+
+.breadcrumb-item {
+  color: yellow !important;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d !important; /* Set active item text color to dark grey */
+}

@@ -1,0 +1,50 @@
+.breadcrumb .breadcrumb-item a {
+  color: #ffa800;
+  text-decoration: none;
+}
+.breadcrumb .active {
+  color: #6c757d;
+}
+.breadcrumb .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #ced4da;
+}
+.stock-ranking-container {
+  border: 2px solid #c4c4c4;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 50px;
+}
+.stock-ranking-container .col {
+  padding: 0;
+}
+.allocation-portfolio-container {
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 50px 50px 0px 50px;
+}
+.portfolio-col,
+.allocation-col {
+  padding: 0;
+}
+.reassurance {
+  border: 2px solid #c4c4c4;
+  background-color: #23b371;
+  border-radius: 12px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  text-align: center;
+  margin: 20px 50px 0px 50px;
+}
+
+.begineer-level-container {
+  display: flex;
+  margin-bottom: 6%;
+}
+
+.begineer-level-container .breadcrumb {
+  justify-self: left;
+  margin-left: 0;
+}

@@ -1,0 +1,80 @@
+#tradeQuestPremium {
+  position: relative; 
+  width: 800px;
+  height: 240.96px;
+  margin: 0 auto; 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tradeQuestPremium .card-img {
+  border-radius: 10px;
+}
+
+#tradeQuestPremium .card-img-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  border-radius: 10px; 
+}
+
+#tradeQuestPremium .card-title {
+  line-height: 0.6;
+  position: relative; 
+  z-index: 2; 
+  color: white;
+  font-size: x-large;
+}
+
+#tradeQuestPremium .card-text {
+  line-height: 1.6;
+  position: relative; 
+  z-index: 2; 
+  color: white;
+  font-size: smaller;
+}
+
+#tradeQuestPremium .btn {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  padding: 1px 30px; 
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+}
+
+.premiumContainer {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 80px;
+  height: 15px;
+  font-size: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFA800;
+  border-radius: 20px;
+  padding: 5px 10px;
+  z-index: 2; 
+}
+
+.premiumContainer p {
+  position: absolute;
+  top: 1px;
+}
+
+.lock-img {
+  height: 18px;
+}

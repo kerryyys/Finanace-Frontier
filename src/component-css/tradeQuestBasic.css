@@ -1,0 +1,68 @@
+#tradeQuestBasic {
+  margin: 0 auto; 
+  border: none; 
+  width: 800px;
+  box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  margin-right: 30px;
+}
+
+#tradeQuestBasic .card-img-overlay {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+  z-index: 1; 
+  padding: 30px;
+}
+
+#tradeQuestBasic .card-title{
+  line-height: 0.6;
+  position: relative; 
+  z-index: 2; 
+  color: white;
+  font-size: x-large;
+}
+
+#tradeQuestBasic .card-text {
+  line-height: 0.8;
+  position: relative; 
+  z-index: 2; 
+  color: white;
+  font-size: smaller;
+}
+
+#tradeQuestBasic .progress {
+  background-color: aliceblue;
+  width: 50%; 
+  margin: 10px auto; 
+  margin-bottom: 15px;
+}
+
+#tradeQuestBasic .progress-bar {
+  background-color: #ffc107; 
+  border-radius: 10px; 
+}
+
+@keyframes progress-stripes {
+  100% {
+    background-position: 30rem 0;
+  }
+}
+
+#tradeQuestBasic .btn {
+  background-color: #28a745; 
+  color: #ffffff; 
+  border: none; 
+  padding: 9px 16px; 
+  font-size: 15px; 
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#tradeQuestBasic .btn:hover {
+  background-color: #218838; 
+}
