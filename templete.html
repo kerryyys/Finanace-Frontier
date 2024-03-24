@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #363D54; 
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            align-items: center;
+            padding: 10px;
+            position: relative; /* Relative position for absolute positioning of new components */
+            height: 60px; /* Set the height of navbar */
+        }
+
+        #navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        #navbar li {
+            margin-left: 10px; /* Add spacing between menu items */
+        }
+
+        #navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Home Bold */
+        #navbar li a:hover {
+            background-color: #ddd; 
+            color: black;
+        }
+
+        /* Style for money container */
+        #money-container {
+            display: flex;
+            align-items: center;
+            margin-left: 10px; /* Add spacing between money container and other menu items */
+        }
+
+        /* Style for yellow container */
+        #coin-container {
+            display: flex;
+            align-items: center;
+            margin-left: 10px; /* Add spacing between coin container and other menu items */
+        }
+
+        /* Style for oval shape container */
+        .money-box {
+            background-color: green;
+            border-radius: 20px; /* Half of your height */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Style for money logo */
+        .money-logo {
+            width: 30px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 10px; /* Adjust spacing */
+        }
+
+        /* Style for coin logo */
+        .coin-logo {
+            width: 30px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 10px; /* Adjust spacing */
+        }
+
+        /* Style for yellow container */
+        .coin-box {
+            background-color: yellow;
+            border-radius: 20px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Style for add money button */
+        #add-money-btn {
+            background-color: white;
+            color: green;
+            border: none;
+            border-radius: 50%; /* For circular shape */
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-left: 10px; /* Adjust spacing */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#challenge">CHALLENGE</a></li>
+            <li><a href="#community">COMMUNITY</a></li>
+            <li><a href="#goal">GOAL</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <!-- Coin container -->
+            <li id="coin-container">
+                <!-- Yellow container with coin logo and amount -->
+                <div class="coin-box">
+                    <img class="coin-logo" src="Resources\coin-logo.png">
+                    100 <!-- Your coin value -->
+                </div>
+            </li>
+            <!-- Money container -->
+            <li id="money-container">
+                <!-- Green container with money and add money button -->
+                <div class="money-box">
+                    <img class="money-logo" src="Resources\money-logo.png">
+                    $1000 <!-- Your money value -->
+                    <button id="add-money-btn">+</button> <!-- Add money button -->
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        // Get all the menu items
+        var menuItems = document.querySelectorAll('#navbar li a');
+
+        // Loop through each menu item
+        menuItems.forEach(function(item) {
+            // Add click event listener to each menu item
+            item.addEventListener('click', function() {
+                // Remove the 'bold' style from all menu items
+                menuItems.forEach(function(item) {
+                    item.style.fontWeight = 'normal';
+                });
+
+                // Make the clicked menu item bold
+                this.style.fontWeight = 'bold';
+            });
+        });
+    </script>
+    
+</body>
+</html>
